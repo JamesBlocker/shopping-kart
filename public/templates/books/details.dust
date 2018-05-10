@@ -1,1 +1,21 @@
-DETAILS TEST
+{>"layouts/master" /}
+
+{<body}
+		<div class="large-4 columns book">
+			<image src="/img/book1.jpg">
+		</div>
+		<div class="large-8 columns book">
+			<h2>This Book Title</h2>
+			<ul>
+				<li>Categor: Node.js</li>
+				<li>Author: John Doe</li>
+				<li>Publisher: Good Books Inc</li>
+			</ul>
+			<br>
+			<div class="price"><span>$19.99</span></div>
+			<br>
+			<p>Lorem ipsum dolor sit amet, consectetur adispiscing elit.</p>
+			<a class="button success">Add To Cart</a>
+		</div>
+
+{/body}
